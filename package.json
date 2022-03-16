@@ -24,7 +24,8 @@
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "mongodb": "^4.4.1",
-    "mongodb-memory-server": "^8.4.1"
+    "mongodb-memory-server": "^2.4.3",
+    "twilio": "^3.75.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
