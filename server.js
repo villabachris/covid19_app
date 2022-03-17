@@ -108,7 +108,7 @@ app.post("/send-alerts", async (req, res) => {
       let mailObject = {
         to: subscriber_mails,
         subject: "Covid Alerts",
-        html: TwilioService.buildAlertMessage(req.body)
+        html: TwilioService.buildAlertMail(req.body)
       }
 
       await TwilioService.sendMail(mailObject);
